@@ -7,7 +7,7 @@ import About from "@/app/components/About";
 
 const skillAnimations = {
   hidden: { opacity: 0, y: 50 },
-  visible: (i) => ({
+  visible: (i: number) => ({
     opacity: 1,
     y: 0,
     transition: { delay: i * 0.2, type: "spring", stiffness: 50 },
@@ -61,7 +61,7 @@ export default function Welcome() {
       </section>
 
       {/* Skills Section */}
-      // Skills Section
+    
 <section className="bg-white text-gray-900 py-16 px-6 md:px-12">
   <div className="max-w-5xl mx-auto text-center">
     <h2 className="text-3xl md:text-4xl font-bold mb-8">Skills</h2>
