@@ -66,7 +66,7 @@ export default function Welcome() {
   <div className="max-w-5xl mx-auto text-center">
     <h2 className="text-3xl md:text-4xl font-bold mb-8">Skills</h2>
     <p className="text-lg text-gray-700 mb-12 leading-relaxed">
-      Here are some of the technologies and programming languages I work with:
+      Some of the technologies and programming languages I am familiar with:
     </p>
 
     {/* Skills Grid */}
@@ -123,7 +123,7 @@ export default function Welcome() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {[
               "Web Design",
-              "Website Development",
+              "Web Development",
               "Mobile App Development",
               "More Services",
             ].map((service, index) => (
